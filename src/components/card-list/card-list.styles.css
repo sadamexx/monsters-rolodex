@@ -4,6 +4,8 @@
     width: 85vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-gap: 20px;
 }
+
+/*the grid says template says it wants it to fit everything into four columns, and each column is one fraction of what the grid is. The grid gap says it should have 20 px in between each fraction */
